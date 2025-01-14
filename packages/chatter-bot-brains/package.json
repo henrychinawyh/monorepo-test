@@ -8,11 +8,12 @@
     "build": "rollup -c",
     "dev": "rollup -c -w"
   },
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "AI-brains"
   ],
   "author": "chinaOldWang",
   "description": "This is a chat bot test",
-  "type": "module"
+  "type": "module",
+  "gitHead": "f0e6b5e22d7dfaa83b83ddebc5b24fb0045b9318"
 }
