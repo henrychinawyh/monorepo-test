@@ -1,0 +1,32 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "a monorepo-test template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrychinawyh/monorepo-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrychinawyh/monorepo-test/issues"
+  },
+  "homepage": "https://github.com/henrychinawyh/monorepo-test#readme",
+  "devDependencies": {
+    "lerna": "^8.1.9",
+    "rollup": "^4.30.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.7.3"
+  },
+  "private": true,
+  "dependencies": {
+    "chatter-bot-brains": "link:packages/chatter-bot-brains",
+    "my-chat-bot": "link:packages/my-chat-bot"
+  }
+}
