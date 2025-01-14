@@ -1,6 +1,6 @@
 {
   "name": "my-chat-bot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "scripts": {
@@ -15,5 +15,5 @@
   "license": "MIT",
   "description": "This is a chat bot test",
   "type": "module",
-  "gitHead": "f0e6b5e22d7dfaa83b83ddebc5b24fb0045b9318"
+  "gitHead": "33f2421c99d2e46253fd70331c5a0fce5a3d7aec"
 }
